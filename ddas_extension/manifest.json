@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "DDAS Download Protection",
+    "version": "1.0.0",
+    "description": "DDAS browser protection for suspicious downloads.",
+    "permissions": [
+        "downloads",
+        "notifications",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "DDAS Protection",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "icon.png"
+    }
+}

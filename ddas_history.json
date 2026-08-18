@@ -1,0 +1,42 @@
+[
+    {
+        "time": "2026-08-18 15:23:16",
+        "duplicate_name": "DDAS_Test_Installer (1).exe",
+        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
+        "original_name": "DDAS_Test_Installer.exe",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer.exe",
+        "size": 58
+    },
+    {
+        "time": "2026-08-18 15:08:49",
+        "duplicate_name": "DDAS_Test_Installer (4).exe",
+        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (4).exe",
+        "original_name": "DDAS_Test_Installer (1).exe",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
+        "size": 58
+    },
+    {
+        "time": "2026-08-18 15:08:25",
+        "duplicate_name": "DDAS_Test_Installer (3).exe",
+        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (3).exe",
+        "original_name": "DDAS_Test_Installer (1).exe",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
+        "size": 58
+    },
+    {
+        "time": "2026-08-18 14:55:16",
+        "duplicate_name": "DDAS_Test_Installer (2).exe",
+        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (2).exe",
+        "original_name": "DDAS_Test_Installer.exe",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer.exe",
+        "size": 58
+    },
+    {
+        "time": "2026-08-18 14:54:38",
+        "duplicate_name": "DDAS_Test_Installer (1).exe",
+        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
+        "original_name": "DDAS_Test_Installer.exe",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer.exe",
+        "size": 58
+    }
+]
