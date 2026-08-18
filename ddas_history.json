@@ -1,42 +1,708 @@
 [
     {
-        "time": "2026-08-18 15:23:16",
-        "duplicate_name": "DDAS_Test_Installer (1).exe",
-        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
+        "time": "2026-08-18 23:23:34",
         "original_name": "DDAS_Test_Installer.exe",
         "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer.exe",
-        "size": 58
+        "size": 58,
+        "duplicates": [
+            {
+                "time": "2026-08-18 23:23:34",
+                "duplicate_name": "DDAS_Test_Installer (1).exe",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
+                "size": 58
+            },
+            {
+                "time": "2026-08-18 23:24:06",
+                "duplicate_name": "DDAS_Test_Installer (2).exe",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (2).exe",
+                "size": 58
+            }
+        ]
     },
     {
-        "time": "2026-08-18 15:08:49",
-        "duplicate_name": "DDAS_Test_Installer (4).exe",
-        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (4).exe",
-        "original_name": "DDAS_Test_Installer (1).exe",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
-        "size": 58
+        "time": "2025-09-08 21:01:10",
+        "original_name": "Provisional Merit Lists.zip",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\Provisional Merit Lists.zip",
+        "size": 22,
+        "duplicates": [
+            {
+                "time": "2025-09-08 21:01:10",
+                "duplicate_name": "Vacancy Round - Provisional Merit List.zip",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Vacancy Round - Provisional Merit List.zip",
+                "size": 22
+            }
+        ]
     },
     {
-        "time": "2026-08-18 15:08:25",
-        "duplicate_name": "DDAS_Test_Installer (3).exe",
-        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (3).exe",
-        "original_name": "DDAS_Test_Installer (1).exe",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
-        "size": 58
+        "time": "2026-04-17 20:46:06",
+        "original_name": "Pan.jpg",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\Pan.jpg",
+        "size": 3145923,
+        "duplicates": [
+            {
+                "time": "2026-04-17 20:46:06",
+                "duplicate_name": "PAN Card Jahnavi.jpg",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\PAN Card Jahnavi.jpg",
+                "size": 3145923
+            }
+        ]
     },
     {
-        "time": "2026-08-18 14:55:16",
-        "duplicate_name": "DDAS_Test_Installer (2).exe",
-        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (2).exe",
-        "original_name": "DDAS_Test_Installer.exe",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer.exe",
-        "size": 58
+        "time": "2026-06-20 18:00:19",
+        "original_name": "ajis.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\ajis.pdf",
+        "size": 540201,
+        "duplicates": [
+            {
+                "time": "2026-06-20 18:00:19",
+                "duplicate_name": "article1.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\article1.pdf",
+                "size": 540201
+            }
+        ]
     },
     {
-        "time": "2026-08-18 14:54:38",
-        "duplicate_name": "DDAS_Test_Installer (1).exe",
-        "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
-        "original_name": "DDAS_Test_Installer.exe",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer.exe",
-        "size": 58
+        "time": "2026-07-08 21:31:22",
+        "original_name": "PG ST of Marks signed.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\New folder\\PG ST of Marks signed.pdf",
+        "size": 595271,
+        "duplicates": [
+            {
+                "time": "2026-07-08 21:31:22",
+                "duplicate_name": "PG ST of Marks signed.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\PG ST of Marks signed.pdf",
+                "size": 595271
+            },
+            {
+                "time": "2026-07-20 22:52:34",
+                "duplicate_name": "Journalism Mark Sheet.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\New folder\\New folder\\MA\\Journalism Mark Sheet.pdf",
+                "size": 595271
+            }
+        ]
+    },
+    {
+        "time": "2026-07-10 16:33:24",
+        "original_name": "Degree Certificate signed.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\New folder\\Degree Certificate signed.pdf",
+        "size": 779280,
+        "duplicates": [
+            {
+                "time": "2026-07-10 16:33:24",
+                "duplicate_name": "BB0001559_STMQUALIEXAMCERT.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\BB0001559_STMQUALIEXAMCERT.pdf",
+                "size": 779280
+            },
+            {
+                "time": "2026-07-20 22:51:06",
+                "duplicate_name": "Degree Certificate.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\New folder\\New folder\\MA\\Degree Certificate.pdf",
+                "size": 779280
+            },
+            {
+                "time": "2026-07-10 21:42:32",
+                "duplicate_name": "BB0001559_STMQUALIEXAMCERT (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\BB0001559_STMQUALIEXAMCERT (1).pdf",
+                "size": 779280
+            },
+            {
+                "time": "2026-07-10 21:42:32",
+                "duplicate_name": "BB0001559_STMQUALIEXAMCERT (2).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\BB0001559_STMQUALIEXAMCERT (2).pdf",
+                "size": 779280
+            },
+            {
+                "time": "2026-07-10 21:42:32",
+                "duplicate_name": "BB0001559_STMQUALIEXAMCERT (3).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\BB0001559_STMQUALIEXAMCERT (3).pdf",
+                "size": 779280
+            }
+        ]
+    },
+    {
+        "time": "2026-07-20 22:48:22",
+        "original_name": "MH Rajapatra Name change.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\New folder\\MH Rajapatra Name change.pdf",
+        "size": 698254,
+        "duplicates": [
+            {
+                "time": "2026-07-20 22:48:22",
+                "duplicate_name": "Name change Rajpatra.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\New folder\\New folder\\MA\\Name change Rajpatra.pdf",
+                "size": 698254
+            }
+        ]
+    },
+    {
+        "time": "2026-07-20 22:49:09",
+        "original_name": "Registration of Marriage.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\New folder\\Registration of Marriage.pdf",
+        "size": 756779,
+        "duplicates": [
+            {
+                "time": "2026-07-20 22:49:09",
+                "duplicate_name": "Marriage Certificate.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\New folder\\New folder\\MA\\Marriage Certificate.pdf",
+                "size": 756779
+            }
+        ]
+    },
+    {
+        "time": "2026-07-20 22:50:38",
+        "original_name": "Postgraduate diploma (signed).pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\New folder\\Postgraduate diploma (signed).pdf",
+        "size": 735485,
+        "duplicates": [
+            {
+                "time": "2026-07-20 22:50:38",
+                "duplicate_name": "PG Diploma in Journalism.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\New folder\\New folder\\MA\\PG Diploma in Journalism.pdf",
+                "size": 735485
+            }
+        ]
+    },
+    {
+        "time": "2026-07-27 21:51:32",
+        "original_name": "adhar card KV.jpg",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\adhar card KV.jpg",
+        "size": 340217,
+        "duplicates": [
+            {
+                "time": "2026-07-27 21:51:32",
+                "duplicate_name": "adhar card krishna V.jpg",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\adhar card krishna V.jpg",
+                "size": 340217
+            }
+        ]
+    },
+    {
+        "time": "2026-08-16 09:43:43",
+        "original_name": "Internal Hackathon PS for SIH 2026.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\Internal Hackathon PS for SIH 2026.pdf",
+        "size": 316629,
+        "duplicates": [
+            {
+                "time": "2026-08-16 09:43:43",
+                "duplicate_name": "SIH.pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\SIH.pdf",
+                "size": 316629
+            }
+        ]
+    },
+    {
+        "time": "2024-02-04 00:12:19",
+        "original_name": "ChromeSetup.exe",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\ChromeSetup.exe",
+        "size": 1376816,
+        "duplicates": [
+            {
+                "time": "2024-02-04 00:12:19",
+                "duplicate_name": "ChromeSetup (1).exe",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\ChromeSetup (1).exe",
+                "size": 1376816
+            }
+        ]
+    },
+    {
+        "time": "2024-07-24 13:41:42",
+        "original_name": "Complete_Marksheet_Final.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\Complete_Marksheet_Final.pdf",
+        "size": 4311809,
+        "duplicates": [
+            {
+                "time": "2024-07-24 13:41:42",
+                "duplicate_name": "Complete_Marksheet_Final (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Complete_Marksheet_Final (1).pdf",
+                "size": 4311809
+            },
+            {
+                "time": "2024-08-01 13:39:08",
+                "duplicate_name": "Complete_Marksheet_Final (2).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Complete_Marksheet_Final (2).pdf",
+                "size": 4311809
+            }
+        ]
+    },
+    {
+        "time": "2025-04-28 20:31:52",
+        "original_name": "EAadhaar_2722100153035020250101130534_2501202521441.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\EAadhaar_2722100153035020250101130534_2501202521441.pdf",
+        "size": 1339554,
+        "duplicates": [
+            {
+                "time": "2025-04-28 20:31:52",
+                "duplicate_name": "EAadhaar_2722100153035020250101130534_2501202521441 (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\EAadhaar_2722100153035020250101130534_2501202521441 (1).pdf",
+                "size": 1339554
+            }
+        ]
+    },
+    {
+        "time": "2025-10-20 12:09:22",
+        "original_name": "be_first-year-engineering_semester-1_2025_may_applied-physics-nep-2020-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2025_may_applied-physics-nep-2020-scheme.pdf",
+        "size": 3223206,
+        "duplicates": [
+            {
+                "time": "2025-10-20 12:09:22",
+                "duplicate_name": "be_first-year-engineering_semester-1_2025_may_applied-physics-nep-2020-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2025_may_applied-physics-nep-2020-scheme (1).pdf",
+                "size": 3223206
+            },
+            {
+                "time": "2025-12-16 19:24:37",
+                "duplicate_name": "be_first-year-engineering_semester-1_2025_may_applied-physics-nep-2020-scheme (2).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2025_may_applied-physics-nep-2020-scheme (2).pdf",
+                "size": 3223206
+            }
+        ]
+    },
+    {
+        "time": "2025-12-10 09:04:50",
+        "original_name": "PrepaidSuccessReceipt (9).pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\PrepaidSuccessReceipt (9).pdf",
+        "size": 3219,
+        "duplicates": [
+            {
+                "time": "2025-12-10 09:04:50",
+                "duplicate_name": "PrepaidSuccessReceipt (9) (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\PrepaidSuccessReceipt (9) (1).pdf",
+                "size": 3219
+            }
+        ]
+    },
+    {
+        "time": "2025-12-28 02:41:07",
+        "original_name": "be_first-year-engineering_semester-1_2024_december_engineering-mechanics-nep-2020-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2024_december_engineering-mechanics-nep-2020-scheme.pdf",
+        "size": 3338801,
+        "duplicates": [
+            {
+                "time": "2025-12-28 02:41:07",
+                "duplicate_name": "be_first-year-engineering_semester-1_2024_december_engineering-mechanics-nep-2020-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2024_december_engineering-mechanics-nep-2020-scheme (1).pdf",
+                "size": 3338801
+            }
+        ]
+    },
+    {
+        "time": "2025-12-31 20:57:27",
+        "original_name": "be_first-year-engineering_semester-1_2025_may_professional-and-communication-ethics-nep-2020-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2025_may_professional-and-communication-ethics-nep-2020-scheme.pdf",
+        "size": 3318261,
+        "duplicates": [
+            {
+                "time": "2025-12-31 20:57:27",
+                "duplicate_name": "be_first-year-engineering_semester-1_2025_may_professional-and-communication-ethics-nep-2020-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2025_may_professional-and-communication-ethics-nep-2020-scheme (1).pdf",
+                "size": 3318261
+            }
+        ]
+    },
+    {
+        "time": "2025-12-31 22:30:41",
+        "original_name": "be_first-year-engineering_semester-1_2024_december_professional-and-communication-ethics-nep-2020-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2024_december_professional-and-communication-ethics-nep-2020-scheme.pdf",
+        "size": 3283014,
+        "duplicates": [
+            {
+                "time": "2025-12-31 22:30:41",
+                "duplicate_name": "be_first-year-engineering_semester-1_2024_december_professional-and-communication-ethics-nep-2020-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-1_2024_december_professional-and-communication-ethics-nep-2020-scheme (1).pdf",
+                "size": 3283014
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 18:28:38",
+        "original_name": "101.py",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\101.py",
+        "size": 869,
+        "duplicates": [
+            {
+                "time": "2026-04-15 18:28:38",
+                "duplicate_name": "101 (1).py",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\101 (1).py",
+                "size": 869
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 18:28:39",
+        "original_name": "102.py",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\102.py",
+        "size": 1101,
+        "duplicates": [
+            {
+                "time": "2026-04-15 18:28:39",
+                "duplicate_name": "102 (1).py",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\102 (1).py",
+                "size": 1101
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 19:58:22",
+        "original_name": "gui.py",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\gui.py",
+        "size": 1607,
+        "duplicates": [
+            {
+                "time": "2026-04-15 19:58:22",
+                "duplicate_name": "gui (1).py",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\gui (1).py",
+                "size": 1607
+            }
+        ]
+    },
+    {
+        "time": "2026-04-16 10:20:27",
+        "original_name": "Python sample Questions for Practical Exam 2026.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\Python sample Questions for Practical Exam 2026.pdf",
+        "size": 127730,
+        "duplicates": [
+            {
+                "time": "2026-04-16 10:20:27",
+                "duplicate_name": "Python sample Questions for Practical Exam 2026 (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Python sample Questions for Practical Exam 2026 (1).pdf",
+                "size": 127730
+            }
+        ]
+    },
+    {
+        "time": "2026-05-05 17:58:33",
+        "original_name": "be_first-year-engineering_semester-2_2025_may_data-structure-nep-2020-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_may_data-structure-nep-2020-scheme.pdf",
+        "size": 3251819,
+        "duplicates": [
+            {
+                "time": "2026-05-05 17:58:33",
+                "duplicate_name": "be_first-year-engineering_semester-2_2025_may_data-structure-nep-2020-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_may_data-structure-nep-2020-scheme (1).pdf",
+                "size": 3251819
+            },
+            {
+                "time": "2026-05-07 10:11:31",
+                "duplicate_name": "be_first-year-engineering_semester-2_2025_may_data-structure-nep-2020-scheme (2).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_may_data-structure-nep-2020-scheme (2).pdf",
+                "size": 3251819
+            }
+        ]
+    },
+    {
+        "time": "2026-05-08 03:39:40",
+        "original_name": "be_first-year-engineering_semester-2_2025_december_engineering-graphics-nep-2020-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_december_engineering-graphics-nep-2020-scheme.pdf",
+        "size": 3622296,
+        "duplicates": [
+            {
+                "time": "2026-05-08 03:39:40",
+                "duplicate_name": "be_first-year-engineering_semester-2_2025_december_engineering-graphics-nep-2020-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_december_engineering-graphics-nep-2020-scheme (1).pdf",
+                "size": 3622296
+            },
+            {
+                "time": "2026-05-11 19:19:49",
+                "duplicate_name": "be_first-year-engineering_semester-2_2025_december_engineering-graphics-nep-2020-scheme (2).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_december_engineering-graphics-nep-2020-scheme (2).pdf",
+                "size": 3622296
+            }
+        ]
+    },
+    {
+        "time": "2026-05-14 09:25:03",
+        "original_name": "be_computer-engineering_semester-3_2024_december_data-structurerev-2019-c-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_computer-engineering_semester-3_2024_december_data-structurerev-2019-c-scheme.pdf",
+        "size": 1645701,
+        "duplicates": [
+            {
+                "time": "2026-05-14 09:25:03",
+                "duplicate_name": "be_computer-engineering_semester-3_2024_december_data-structurerev-2019-c-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_computer-engineering_semester-3_2024_december_data-structurerev-2019-c-scheme (1).pdf",
+                "size": 1645701
+            }
+        ]
+    },
+    {
+        "time": "2026-05-15 20:36:05",
+        "original_name": "be_first-year-engineering_semester-2_2025_may_environmental-chemistry-non-conventional-energy-sources-nep-2020-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_may_environmental-chemistry-non-conventional-energy-sources-nep-2020-scheme.pdf",
+        "size": 3279943,
+        "duplicates": [
+            {
+                "time": "2026-05-15 20:36:05",
+                "duplicate_name": "be_first-year-engineering_semester-2_2025_may_environmental-chemistry-non-conventional-energy-sources-nep-2020-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_may_environmental-chemistry-non-conventional-energy-sources-nep-2020-scheme (1).pdf",
+                "size": 3279943
+            },
+            {
+                "time": "2026-05-18 18:22:25",
+                "duplicate_name": "be_first-year-engineering_semester-2_2025_may_environmental-chemistry-non-conventional-energy-sources-nep-2020-scheme (2).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_may_environmental-chemistry-non-conventional-energy-sources-nep-2020-scheme (2).pdf",
+                "size": 3279943
+            }
+        ]
+    },
+    {
+        "time": "2026-05-16 09:39:10",
+        "original_name": "be_first-year-engineering_semester-2_2025_december_physics-of-measurements-sensors-nep-2020-scheme.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_december_physics-of-measurements-sensors-nep-2020-scheme.pdf",
+        "size": 3367169,
+        "duplicates": [
+            {
+                "time": "2026-05-16 09:39:10",
+                "duplicate_name": "be_first-year-engineering_semester-2_2025_december_physics-of-measurements-sensors-nep-2020-scheme (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\be_first-year-engineering_semester-2_2025_december_physics-of-measurements-sensors-nep-2020-scheme (1).pdf",
+                "size": 3367169
+            }
+        ]
+    },
+    {
+        "time": "2026-06-08 17:21:40",
+        "original_name": "Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (3).pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (3).pdf",
+        "size": 650318,
+        "duplicates": [
+            {
+                "time": "2026-06-08 17:21:40",
+                "duplicate_name": "Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (4).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (4).pdf",
+                "size": 650318
+            },
+            {
+                "time": "2026-06-10 09:46:39",
+                "duplicate_name": "Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (5).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (5).pdf",
+                "size": 650318
+            },
+            {
+                "time": "2026-06-11 10:26:42",
+                "duplicate_name": "Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (6).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (6).pdf",
+                "size": 650318
+            },
+            {
+                "time": "2026-06-12 09:33:10",
+                "duplicate_name": "Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (7).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (7).pdf",
+                "size": 650318
+            },
+            {
+                "time": "2026-06-13 10:00:20",
+                "duplicate_name": "Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (8).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (8).pdf",
+                "size": 650318
+            },
+            {
+                "time": "2026-06-15 19:12:31",
+                "duplicate_name": "Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (9).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Ensuring_Fast_Interaction_with_HMIs_for_Safety_Cri (9).pdf",
+                "size": 650318
+            }
+        ]
+    },
+    {
+        "time": "2026-06-17 14:22:51",
+        "original_name": "acmart-primary.zip",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\acmart-primary.zip",
+        "size": 15132982,
+        "duplicates": [
+            {
+                "time": "2026-06-17 14:22:51",
+                "duplicate_name": "acmart-primary (1).zip",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\acmart-primary (1).zip",
+                "size": 15132982
+            }
+        ]
+    },
+    {
+        "time": "2026-06-18 21:37:25",
+        "original_name": "S1386505626001024.bib",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\S1386505626001024.bib",
+        "size": 2833,
+        "duplicates": [
+            {
+                "time": "2026-06-18 21:37:25",
+                "duplicate_name": "S1386505626001024 (1).bib",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\S1386505626001024 (1).bib",
+                "size": 2833
+            }
+        ]
+    },
+    {
+        "time": "2026-06-19 08:11:55",
+        "original_name": "10.3389-fpubh.2025.1507142-citation.bib",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\10.3389-fpubh.2025.1507142-citation.bib",
+        "size": 2664,
+        "duplicates": [
+            {
+                "time": "2026-06-19 08:11:55",
+                "duplicate_name": "10.3389-fpubh.2025.1507142-citation (1).bib",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\10.3389-fpubh.2025.1507142-citation (1).bib",
+                "size": 2664
+            }
+        ]
+    },
+    {
+        "time": "2026-07-08 17:57:37",
+        "original_name": "20250116153533754.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\20250116153533754.pdf",
+        "size": 0,
+        "duplicates": [
+            {
+                "time": "2026-07-08 17:57:37",
+                "duplicate_name": "40995130 (1).nbib",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\40995130 (1).nbib",
+                "size": 0
+            }
+        ]
+    },
+    {
+        "time": "2026-07-13 22:14:21",
+        "original_name": "Graduation Marksheet attested.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\New folder\\New folder\\MA\\Graduation Marksheet attested.pdf",
+        "size": 769863,
+        "duplicates": [
+            {
+                "time": "2026-07-13 22:14:21",
+                "duplicate_name": "BB0001559_STMQUALIEXAMCERT (4).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\BB0001559_STMQUALIEXAMCERT (4).pdf",
+                "size": 769863
+            },
+            {
+                "time": "2026-07-20 23:01:17",
+                "duplicate_name": "BB0001559_STMQUALIEXAMCERT (5).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\BB0001559_STMQUALIEXAMCERT (5).pdf",
+                "size": 769863
+            },
+            {
+                "time": "2026-07-20 23:06:51",
+                "duplicate_name": "BB0001559_STMQUALIEXAMCERT (9).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\BB0001559_STMQUALIEXAMCERT (9).pdf",
+                "size": 769863
+            }
+        ]
+    },
+    {
+        "time": "2026-07-21 20:24:29",
+        "original_name": "ACM_Conference_Proceedings_Primary_Article_Template.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\ACM_Conference_Proceedings_Primary_Article_Template.pdf",
+        "size": 398250,
+        "duplicates": [
+            {
+                "time": "2026-07-21 20:24:29",
+                "duplicate_name": "ACM_Conference_Proceedings_Primary_Article_Template (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\ACM_Conference_Proceedings_Primary_Article_Template (1).pdf",
+                "size": 398250
+            }
+        ]
+    },
+    {
+        "time": "2026-07-27 21:57:43",
+        "original_name": "S13_Signed_Form_186_S13186O8C2707261200111_SHRDBWS_e1b17b52-02bc-444c-a7fc-5b854ad34c10_Form8S131.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\S13_Signed_Form_186_S13186O8C2707261200111_SHRDBWS_e1b17b52-02bc-444c-a7fc-5b854ad34c10_Form8S131.pdf",
+        "size": 1863293,
+        "duplicates": [
+            {
+                "time": "2026-07-27 21:57:43",
+                "duplicate_name": "S13_Signed_Form_186_S13186O8C2707261200111_SHRDBWS_e1b17b52-02bc-444c-a7fc-5b854ad34c10_Form8S131 (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\S13_Signed_Form_186_S13186O8C2707261200111_SHRDBWS_e1b17b52-02bc-444c-a7fc-5b854ad34c10_Form8S131 (1).pdf",
+                "size": 1863293
+            },
+            {
+                "time": "2026-07-27 21:57:44",
+                "duplicate_name": "S13_Signed_Form_186_S13186O8C2707261200111_SHRDBWS_e1b17b52-02bc-444c-a7fc-5b854ad34c10_Form8S131 (2).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\S13_Signed_Form_186_S13186O8C2707261200111_SHRDBWS_e1b17b52-02bc-444c-a7fc-5b854ad34c10_Form8S131 (2).pdf",
+                "size": 1863293
+            }
+        ]
+    },
+    {
+        "time": "2026-07-28 23:18:30",
+        "original_name": "14-10-25, 104\u202fPM Microsoft Lens.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\14-10-25, 104\u202fPM Microsoft Lens.pdf",
+        "size": 788503,
+        "duplicates": [
+            {
+                "time": "2026-07-28 23:18:30",
+                "duplicate_name": "14-10-25, 104\u202fPM Microsoft Lens (1).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\14-10-25, 104\u202fPM Microsoft Lens (1).pdf",
+                "size": 788503
+            }
+        ]
+    },
+    {
+        "time": "2026-08-08 21:12:47",
+        "original_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (1).pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (1).pdf",
+        "size": 69526,
+        "duplicates": [
+            {
+                "time": "2026-08-08 21:12:47",
+                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (2).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (2).pdf",
+                "size": 69526
+            }
+        ]
+    },
+    {
+        "time": "2026-08-08 21:21:48",
+        "original_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials.pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials.pdf",
+        "size": 69538,
+        "duplicates": [
+            {
+                "time": "2026-08-08 21:21:48",
+                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (4).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (4).pdf",
+                "size": 69538
+            },
+            {
+                "time": "2026-08-08 21:27:05",
+                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (6).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (6).pdf",
+                "size": 69538
+            },
+            {
+                "time": "2026-08-08 21:29:37",
+                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (8).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (8).pdf",
+                "size": 69538
+            }
+        ]
+    },
+    {
+        "time": "2026-08-08 21:24:22",
+        "original_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (3).pdf",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (3).pdf",
+        "size": 69536,
+        "duplicates": [
+            {
+                "time": "2026-08-08 21:24:22",
+                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (5).pdf",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (5).pdf",
+                "size": 69536
+            }
+        ]
+    },
+    {
+        "time": "2026-08-16 23:00:19",
+        "original_name": "photo-masthead-375-BoK_p8LG.webp",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\photo-masthead-375-BoK_p8LG.webp",
+        "size": 26144,
+        "duplicates": [
+            {
+                "time": "2026-08-16 23:00:19",
+                "duplicate_name": "photo-masthead-375-BoK_p8LG (1).webp",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\photo-masthead-375-BoK_p8LG (1).webp",
+                "size": 26144
+            },
+            {
+                "time": "2026-08-16 23:59:08",
+                "duplicate_name": "photo-masthead-375-BoK_p8LG (2).webp",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\photo-masthead-375-BoK_p8LG (2).webp",
+                "size": 26144
+            }
+        ]
     }
 ]

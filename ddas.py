@@ -1025,7 +1025,7 @@ class DDASApp:
 
         self.alert_value = self.create_card(
             cards,
-            "Recent Alerts",
+            "Number of Original Files",
             "0",
             "Files with duplicates"
         )
