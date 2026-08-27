@@ -150,101 +150,60 @@ function analyzeDownload(download) {
 
 chrome.downloads.onCreated.addListener(async (download) => {
 
-    console.log(
-        "DDAS DOWNLOAD EVENT:",
-        download.filename,
-        download.url
-    );
-
     const analysisResult = analyzeDownload(download);
 
-    console.log(
-        "DDAS ANALYSIS:",
-        analysisResult
-    );
-
     if (!analysisResult.suspicious) {
-
-        console.log(
-            "DDAS: Download considered normal:",
-            download.filename
-        );
-
         return;
     }
 
-    console.log(
-        "DDAS suspicious download detected:",
-        download.filename
-    );
+    // Pause FIRST, before anything else (dashboard call, storage, notifications).
+    // This minimizes the race window where a small file finishes downloading
+    // before we get a chance to intervene.
+    try {
+        await chrome.downloads.pause(download.id);
+    } catch (error) {
+        console.log("DDAS: pause failed (download may have already finished):", error);
+    }
 
-    // Send event to dashboard
+    // When first flagging (inside onCreated, right after sendToDashboard(...) call):
     sendToDashboard({
+        downloadId: download.id,
         filename: download.filename || download.url,
+        url: download.url,
+        reasons: analysisResult.reasons,
+        status: "PENDING"
+    });
+
+    pendingWarnings.set(download.id, {
+        filename: download.filename,
         url: download.url,
         reasons: analysisResult.reasons
     });
 
-    try {
+    await chrome.storage.local.set({
+        [`download_${download.id}`]: {
+            filename: download.filename,
+            url: download.url,
+            reasons: analysisResult.reasons,
+            status: "WAITING"
+        }
+    });
 
-        // Pause suspicious download
-        await chrome.downloads.pause(
-            download.id
-        );
-
-        console.log(
-            "DDAS: Download paused:",
-            download.filename
-        );
-
-        pendingWarnings.set(
-            download.id,
-            {
-                filename: download.filename,
-                url: download.url,
-                reasons: analysisResult.reasons
-            }
-        );
-
-        await chrome.storage.local.set({
-            [`download_${download.id}`]: {
-                filename: download.filename,
-                url: download.url,
-                reasons: analysisResult.reasons,
-                status: "WAITING"
-            }
-        });
-
-        chrome.notifications.create(
-            `ddas_${download.id}`,
-            {
-                type: "basic",
-                title: "⚠️ DDAS Security Warning",
-                message:
-                    `${download.filename}\n\n` +
-                    analysisResult.reasons.join("\n"),
-                iconUrl: "icon.png",
-                buttons: [
-                    {
-                        title: "Continue Download"
-                    },
-                    {
-                        title: "Cancel Download"
-                    }
-                ],
-                priority: 2
-            }
-        );
-
-    } catch (error) {
-
-        console.error(
-            "DDAS could not pause download:",
-            error
-        );
-    }
+    chrome.notifications.create(
+        `ddas_${download.id}`,
+        {
+            type: "basic",
+            title: "⚠️ DDAS Security Warning",
+            message: `${download.filename}\n\n` + analysisResult.reasons.join("\n"),
+            iconUrl: "icon.png",
+            buttons: [
+                { title: "Continue Download" },
+                { title: "Cancel Download" }
+            ],
+            priority: 2
+        }
+    );
 });
-
 
 chrome.notifications.onButtonClicked.addListener(
     async (notificationId, buttonIndex) => {
@@ -273,45 +232,26 @@ chrome.notifications.onButtonClicked.addListener(
 
 
 async function continueDownload(downloadId) {
+    console.log("DDAS: CONTINUE BUTTON CLICKED:", downloadId);
 
-    console.log(
-        "DDAS: CONTINUE BUTTON CLICKED:",
-        downloadId
-    );
+    const warning = pendingWarnings.get(downloadId);
+    if (!warning) {
+        console.error("DDAS: No warning found for download:", downloadId);
+        return;
+    }
+
+    // Try to resume — but don't let a failure here block reporting.
+    // If the download already finished (fast/small file) or was never
+    // actually paused in time, resume() can throw even though the
+    // user's decision to continue is still valid and needs to reach DDAS.
+    try {
+        await chrome.downloads.resume(downloadId);
+        console.log("DDAS: Download resumed");
+    } catch (error) {
+        console.log("DDAS: resume() failed (likely already completed):", error);
+    }
 
     try {
-
-        const warning = pendingWarnings.get(
-            downloadId
-        );
-
-        console.log(
-            "DDAS: WARNING DATA:",
-            warning
-        );
-
-        if (!warning) {
-
-            console.error(
-                "DDAS: No warning found for download:",
-                downloadId
-            );
-
-            return;
-        }
-
-        console.log(
-            "DDAS: Resuming download..."
-        );
-
-        await chrome.downloads.resume(
-            downloadId
-        );
-
-        console.log(
-            "DDAS: Download resumed"
-        );
-
         await chrome.storage.local.set({
             [`download_${downloadId}`]: {
                 filename: warning.filename,
@@ -321,10 +261,6 @@ async function continueDownload(downloadId) {
             }
         });
 
-        console.log(
-            "DDAS: Sending security event to dashboard..."
-        );
-
         await sendToDashboard({
             filename: warning.filename,
             url: warning.url,
@@ -332,57 +268,39 @@ async function continueDownload(downloadId) {
             status: "CONTINUED"
         });
 
-        console.log(
-            "DDAS: Security event sent"
-        );
-
-        pendingWarnings.delete(
-            downloadId
-        );
-
+        console.log("DDAS: Security event sent");
     } catch (error) {
-
-        console.error(
-            "DDAS CONTINUE ERROR:",
-            error
-        );
+        console.error("DDAS CONTINUE ERROR (reporting):", error);
+    } finally {
+        pendingWarnings.delete(downloadId);
     }
 }
 
 
 async function cancelDownload(downloadId) {
-
     try {
+        const warning = pendingWarnings.get(downloadId);
 
-        console.log(
-            "DDAS: Cancelling download:",
-            downloadId
-        );
-
-        await chrome.downloads.cancel(
-            downloadId
-        );
-
-        console.log(
-            "DDAS: Download cancelled:",
-            downloadId
-        );
+        try { await chrome.downloads.cancel(downloadId); } catch (e) { }
+        try { await chrome.downloads.removeFile(downloadId); } catch (e) { }
+        await chrome.downloads.erase({ id: downloadId });
 
         await chrome.storage.local.set({
-            [`download_${downloadId}`]: {
-                status: "CANCELLED"
-            }
+            [`download_${downloadId}`]: { status: "CANCELLED" }
         });
 
-        pendingWarnings.delete(
-            downloadId
-        );
+        // NEW: tell the dashboard/duplicate-detector this file should be ignored
+        if (warning) {
+            await sendToDashboard({
+                filename: warning.filename,
+                url: warning.url,
+                reasons: warning.reasons,
+                status: "CANCELLED"
+            });
+        }
 
+        pendingWarnings.delete(downloadId);
     } catch (error) {
-
-        console.error(
-            "DDAS could not cancel download:",
-            error
-        );
+        console.error("DDAS could not cancel download:", error);
     }
 }

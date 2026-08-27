@@ -47,6 +47,13 @@ def looks_like_copy(file_name):
     )
 
 
+def normalize_suspicious_name(name):
+    base = os.path.basename(name).lower()
+    stem, ext = os.path.splitext(base)
+    stem = re.sub(r"\s*\(\d+\)$", "", stem)
+    return stem + ext
+
+
 BG = "#F5F7FB"
 CARD = "#FFFFFF"
 TEXT = "#172033"
@@ -82,35 +89,21 @@ def listen_to_bridge(app):
 
     while True:
         try:
-            response = requests.get(
-                "http://127.0.0.1:5000/events",
-                timeout=2
-            )
-
+            response = requests.get("http://127.0.0.1:5000/events", timeout=2)
             events = response.json()
-
-            print("BRIDGE EVENTS RECEIVED:", events)
 
             if len(events) > last_event_count:
                 new_events = events[last_event_count:]
-
                 for event in new_events:
-                    app.queue_message(
-                        "bridge_event",
-                        event
-                    )
-
+                    app.queue_message("bridge_event", event)
                 last_event_count = len(events)
 
         except requests.RequestException:
             pass
-
         except Exception as error:
-            print(
-                f"Bridge listener error: {error}"
-            )
+            print(f"Bridge listener error: {error}")
 
-        time.sleep(1)
+        time.sleep(0.3)   # was 1 — faster polling, less race window
 
 
 def enable_windows_dpi_awareness():
@@ -160,8 +153,8 @@ def compute_file_hash(file_path):
 
 def wait_for_file(
     file_path,
-    checks=4,
-    delay=0.5
+    checks=2,
+    delay=0.25
 ):
 
     previous_size = -1
@@ -461,31 +454,26 @@ class DownloadHandler(FileSystemEventHandler):
 
     def process_file(self, file_path):
 
-        file_path = os.path.abspath(
-            file_path
-        )
+        file_path = os.path.abspath(file_path)
 
         if not os.path.isfile(file_path):
             return
 
-        file_name = os.path.basename(
-            file_path
-        )
+        file_name = os.path.basename(file_path)
 
-        if file_name.lower().endswith(
-            TEMP_EXTENSIONS
-        ):
+        if file_name.lower().endswith(TEMP_EXTENSIONS):
+            return
+
+        # ADD THIS — was missing entirely
+        if self.app.check_pending_suspicious(file_name):
+            self.app.log(
+                f"Skipped duplicate check — download was cancelled: {file_name}")
             return
 
         with self.lock:
-
             if file_path in self.processing:
                 return
-
-            self.processing.add(
-                file_path
-            )
-
+            self.processing.add(file_path)
         try:
 
             self.app.log(
@@ -739,6 +727,10 @@ class DDASApp:
         self.load_history_into_table()
 
         self.update_dashboard()
+
+        self.pending_suspicious = {}      # normalized filename -> threading.Event
+        self.suspicious_resolution = {}   # normalized filename -> "CONTINUED"/"CANCELLED"
+        self.pending_lock = threading.Lock()
 
         self.handler = DownloadHandler(
             self
@@ -2077,33 +2069,56 @@ class DDASApp:
             )
 
         elif source == "extension":
+            filename = data.get("filename", "Unknown file")
+            status = data.get("status")
+            norm = normalize_suspicious_name(filename)
+            download_id = data.get("downloadId")
 
-            filename = data.get(
-                "filename",
-                "Unknown file"
-            )
+            if status == "PENDING":
+                with self.pending_lock:
+                    self.pending_suspicious[norm] = threading.Event()
+                self.log(
+                    f"Extension: Suspicious download flagged (pending decision): {filename}")
+                self.set_status("SECURITY ALERT",
+                                f"Awaiting decision: {filename}", "danger")
 
-            reasons = data.get(
-                "reasons",
-                []
-            )
-
-            self.log(
-                f"Extension: Suspicious download "
-                f"{filename}"
-            )
-
-            self.set_status(
-                "SECURITY ALERT",
-                f"Suspicious download: {filename}",
-                "danger"
-            )
+            elif status in ("CONTINUED", "CANCELLED"):
+                with self.pending_lock:
+                    self.suspicious_resolution[norm] = status
+                    event = self.pending_suspicious.get(norm)
+                if event:
+                    event.set()
+                self.log(f"Extension: {filename} -> {status}")
 
         elif source == "duplicate_detector":
 
             self.log(
                 "Bridge: Duplicate detected"
             )
+
+    def check_pending_suspicious(self, filename, grace_period=5, decision_timeout=10):
+        norm = normalize_suspicious_name(filename)
+
+        deadline = time.time() + grace_period
+        event = None
+
+        while time.time() < deadline:
+            with self.pending_lock:
+                event = self.pending_suspicious.get(norm)
+            if event:
+                break
+            time.sleep(0.2)
+
+        if not event:
+            return False  # never flagged as pending — process normally
+
+        event.wait(decision_timeout)
+
+        with self.pending_lock:
+            resolution = self.suspicious_resolution.pop(norm, None)
+            self.pending_suspicious.pop(norm, None)
+
+        return resolution == "CANCELLED"
 
     def process_queue(self):
 

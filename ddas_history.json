@@ -1,25 +1,5 @@
 [
     {
-        "time": "2026-08-18 23:23:34",
-        "original_name": "DDAS_Test_Installer.exe",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer.exe",
-        "size": 58,
-        "duplicates": [
-            {
-                "time": "2026-08-18 23:23:34",
-                "duplicate_name": "DDAS_Test_Installer (1).exe",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (1).exe",
-                "size": 58
-            },
-            {
-                "time": "2026-08-18 23:24:06",
-                "duplicate_name": "DDAS_Test_Installer (2).exe",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\DDAS_Test_Installer (2).exe",
-                "size": 58
-            }
-        ]
-    },
-    {
         "time": "2025-09-08 21:01:10",
         "original_name": "Provisional Merit Lists.zip",
         "original_path": "C:\\Users\\sgaur\\Downloads\\Provisional Merit Lists.zip",
@@ -30,20 +10,6 @@
                 "duplicate_name": "Vacancy Round - Provisional Merit List.zip",
                 "duplicate_path": "C:\\Users\\sgaur\\Downloads\\Vacancy Round - Provisional Merit List.zip",
                 "size": 22
-            }
-        ]
-    },
-    {
-        "time": "2026-04-17 20:46:06",
-        "original_name": "Pan.jpg",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\Pan.jpg",
-        "size": 3145923,
-        "duplicates": [
-            {
-                "time": "2026-04-17 20:46:06",
-                "duplicate_name": "PAN Card Jahnavi.jpg",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\PAN Card Jahnavi.jpg",
-                "size": 3145923
             }
         ]
     },
@@ -134,55 +100,13 @@
         ]
     },
     {
-        "time": "2026-07-20 22:49:09",
-        "original_name": "Registration of Marriage.pdf",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\New folder\\Registration of Marriage.pdf",
-        "size": 756779,
-        "duplicates": [
-            {
-                "time": "2026-07-20 22:49:09",
-                "duplicate_name": "Marriage Certificate.pdf",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\New folder\\New folder\\MA\\Marriage Certificate.pdf",
-                "size": 756779
-            }
-        ]
-    },
-    {
-        "time": "2026-07-20 22:50:38",
-        "original_name": "Postgraduate diploma (signed).pdf",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\New folder\\Postgraduate diploma (signed).pdf",
-        "size": 735485,
-        "duplicates": [
-            {
-                "time": "2026-07-20 22:50:38",
-                "duplicate_name": "PG Diploma in Journalism.pdf",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\New folder\\New folder\\MA\\PG Diploma in Journalism.pdf",
-                "size": 735485
-            }
-        ]
-    },
-    {
-        "time": "2026-07-27 21:51:32",
-        "original_name": "adhar card KV.jpg",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\adhar card KV.jpg",
-        "size": 340217,
-        "duplicates": [
-            {
-                "time": "2026-07-27 21:51:32",
-                "duplicate_name": "adhar card krishna V.jpg",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\adhar card krishna V.jpg",
-                "size": 340217
-            }
-        ]
-    },
-    {
-        "time": "2026-08-16 09:43:43",
+        "time": "2026-08-19 11:18:30",
         "original_name": "Internal Hackathon PS for SIH 2026.pdf",
         "original_path": "C:\\Users\\sgaur\\Downloads\\Internal Hackathon PS for SIH 2026.pdf",
         "size": 316629,
         "duplicates": [
             {
-                "time": "2026-08-16 09:43:43",
+                "time": "2026-08-19 11:18:30",
                 "duplicate_name": "SIH.pdf",
                 "duplicate_path": "C:\\Users\\sgaur\\Downloads\\SIH.pdf",
                 "size": 316629
@@ -632,60 +556,6 @@
         ]
     },
     {
-        "time": "2026-08-08 21:12:47",
-        "original_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (1).pdf",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (1).pdf",
-        "size": 69526,
-        "duplicates": [
-            {
-                "time": "2026-08-08 21:12:47",
-                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (2).pdf",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (2).pdf",
-                "size": 69526
-            }
-        ]
-    },
-    {
-        "time": "2026-08-08 21:21:48",
-        "original_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials.pdf",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials.pdf",
-        "size": 69538,
-        "duplicates": [
-            {
-                "time": "2026-08-08 21:21:48",
-                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (4).pdf",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (4).pdf",
-                "size": 69538
-            },
-            {
-                "time": "2026-08-08 21:27:05",
-                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (6).pdf",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (6).pdf",
-                "size": 69538
-            },
-            {
-                "time": "2026-08-08 21:29:37",
-                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (8).pdf",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (8).pdf",
-                "size": 69538
-            }
-        ]
-    },
-    {
-        "time": "2026-08-08 21:24:22",
-        "original_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (3).pdf",
-        "original_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (3).pdf",
-        "size": 69536,
-        "duplicates": [
-            {
-                "time": "2026-08-08 21:24:22",
-                "duplicate_name": "MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (5).pdf",
-                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\MR_VICHARE_KRISHNA_TUKARAM_UserCredentials (5).pdf",
-                "size": 69536
-            }
-        ]
-    },
-    {
         "time": "2026-08-16 23:00:19",
         "original_name": "photo-masthead-375-BoK_p8LG.webp",
         "original_path": "C:\\Users\\sgaur\\Downloads\\photo-masthead-375-BoK_p8LG.webp",
@@ -702,6 +572,48 @@
                 "duplicate_name": "photo-masthead-375-BoK_p8LG (2).webp",
                 "duplicate_path": "C:\\Users\\sgaur\\Downloads\\photo-masthead-375-BoK_p8LG (2).webp",
                 "size": 26144
+            }
+        ]
+    },
+    {
+        "time": "2026-08-19 11:19:27",
+        "original_name": "SIH2026-IDEA-Presentation-Format.pptx",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\SIH2026-IDEA-Presentation-Format.pptx",
+        "size": 924505,
+        "duplicates": [
+            {
+                "time": "2026-08-19 11:19:27",
+                "duplicate_name": "SIH2026-IDEA-Presentation-Format (1).pptx",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\SIH2026-IDEA-Presentation-Format (1).pptx",
+                "size": 924505
+            }
+        ]
+    },
+    {
+        "time": "2026-08-19 22:58:30",
+        "original_name": "happy birthday champ.jpg",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\happy birthday champ.jpg",
+        "size": 150755,
+        "duplicates": [
+            {
+                "time": "2026-08-19 22:58:30",
+                "duplicate_name": "happy birthday champ (1).jpg",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\happy birthday champ (1).jpg",
+                "size": 150755
+            }
+        ]
+    },
+    {
+        "time": "2026-08-27 01:58:23",
+        "original_name": "river-in-the-forest-free-smartphone-wallpaper-free-photo.jpeg",
+        "original_path": "C:\\Users\\sgaur\\Downloads\\river-in-the-forest-free-smartphone-wallpaper-free-photo.jpeg",
+        "size": 120204,
+        "duplicates": [
+            {
+                "time": "2026-08-27 01:58:23",
+                "duplicate_name": "river-in-the-forest-free-smartphone-wallpaper-free-photo (1).jpeg",
+                "duplicate_path": "C:\\Users\\sgaur\\Downloads\\river-in-the-forest-free-smartphone-wallpaper-free-photo (1).jpeg",
+                "size": 120204
             }
         ]
     }
