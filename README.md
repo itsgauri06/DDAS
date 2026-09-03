@@ -13,6 +13,9 @@ It combines:
 
 ---
 
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/84a8407d-4e53-4d62-8c2d-eaf5c4644c68" />
+
+
 ## Features
 
 ### 1. Duplicate File Detection
@@ -34,6 +37,8 @@ Users can also:
 - Clear duplicate history
 
 ---
+<img width="332" height="166" alt="image" src="https://github.com/user-attachments/assets/8d8640d0-99fd-4490-8a2c-21fd3e5ecdff" />
+
 
 ### 2. Suspicious Download Protection
 
@@ -56,6 +61,11 @@ It also detects deceptive double extensions such as:
 
 document.pdf.exe
 image.jpg.scr
+
+<img width="380" height="186" alt="image" src="https://github.com/user-attachments/assets/ad56fcf7-ff3b-4dd1-8129-7cbee5ce020d" />
+
+
+
 
 ## Installation & Usage
 
